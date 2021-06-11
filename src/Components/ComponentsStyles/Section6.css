@@ -3,7 +3,7 @@
 
   display: flex;
 
-  background: #74b9ff;
+  background: #dbe6fd;
 }
 .left-section {
   flex-basis: 50%;
@@ -14,9 +14,12 @@
 }
 .left-section h2 {
   font-size: 30px;
+  font-weight: 400;
 }
 .left-section p {
-  width: 50%;
+  width: 70%;
+  line-height: 30px;
+  font-weight: 100;
   text-align: left;
   color: black;
   margin: 20px auto;
@@ -49,7 +52,7 @@
   height: 25px;
   border: none;
   text-align: left;
-  margin: 15px;
+  margin: 10px;
   padding: 10px;
   border-radius: 4px;
 }
@@ -71,5 +74,6 @@
   margin: 20px;
   position: relative;
   left: -40%;
+  font-size: 14px;
   border-radius: 20px;
 }

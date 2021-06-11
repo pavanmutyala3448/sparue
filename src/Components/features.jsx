@@ -1,32 +1,32 @@
 import React from "react";
 import "./ComponentsStyles/features.css";
+import png1 from "../images/png1.png";
+import png2 from "../images/png2.png";
+import png3 from "../images/png3.png";
+import png4 from "../images/png4.png";
 const Features = () => {
   const data = [
     {
       id: "service-1",
-      img:
-        "https://lh3.googleusercontent.com/mIeBLLu8xOi-1bPbtRO_HYb5d1VchJDLDH4hebMO7R-GNOfueGDtHCKgPWFjwyCAORQ=w300",
+      img: png1,
       name: "AWS Database migrations",
       work: "By Using Search Engine Optimization You Will Get More Clients"
     },
     {
       id: "service-2",
-      img:
-        "https://lh3.googleusercontent.com/mIeBLLu8xOi-1bPbtRO_HYb5d1VchJDLDH4hebMO7R-GNOfueGDtHCKgPWFjwyCAORQ=w300",
-      name: "Managed Cloud Services:",
+      img: png2,
+      name: "Managed Cloud Services",
       work: "By Using Search Engine Optimization You Will Get More Clients"
     },
     {
       id: "service-3",
-      img:
-        "https://lh3.googleusercontent.com/mIeBLLu8xOi-1bPbtRO_HYb5d1VchJDLDH4hebMO7R-GNOfueGDtHCKgPWFjwyCAORQ=w300",
+      img: png3,
       name: "AWS Devops",
       work: "By Using Search Engine Optimization You Will Get More Clients"
     },
     {
       id: "service-4",
-      img:
-        "https://lh3.googleusercontent.com/mIeBLLu8xOi-1bPbtRO_HYb5d1VchJDLDH4hebMO7R-GNOfueGDtHCKgPWFjwyCAORQ=w300",
+      img: png4,
       name: "Security in the Cloud –AWS",
       work: "By Using Search Engine Optimization You Will Get More Clients"
     }

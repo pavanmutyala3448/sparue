@@ -4,6 +4,7 @@
   background-color: #181c28;
   color: white;
   display: flex;
+
   align-items: center;
   justify-content: center;
 }
@@ -12,7 +13,7 @@ h4 {
 }
 .footer-1 {
   display: grid;
-  grid-gap: 30px;
+  grid-column-gap: 150px;
   grid-template-columns: repeat(4, 2fr);
 }
 .item-1 img {

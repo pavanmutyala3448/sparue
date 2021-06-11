@@ -8,10 +8,11 @@
 .services {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  grid-gap: 100px;
+  grid-gap: 0px;
   align-items: center;
-  margin: 30px auto;
+  margin: 10px auto;
   text-align: center;
+  grid-column-gap: 5px;
 }
 .services h3 {
   font-weight: 500;
@@ -22,7 +23,7 @@
 .service-2 img,
 .service-3 img,
 .service-4 img {
-  width: 70px;
+  width: 120px;
 }
 .service-1 p,
 .service-2 p,
@@ -32,11 +33,11 @@
   width: 50%;
   margin: 10px auto;
   font-size: 12px;
-  padding: 30px;
+  padding: 0 30px 0 30px;
 }
 
 .service-4 {
   position: relative;
-  left: 414px;
-  margin: 20px auto;
+  left: 385px;
+  margin: 0px auto;
 }

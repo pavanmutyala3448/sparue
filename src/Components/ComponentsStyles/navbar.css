@@ -40,5 +40,6 @@ button {
   font-size: 10px;
   background-color: #e67e22;
   border: none;
+  border-radius: 5px;
   color: white;
 }

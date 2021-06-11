@@ -4,21 +4,25 @@ const Section3 = () => {
   const Data = [
     {
       id: "grid-1 grid",
+      circle: "circle-1",
       heading: "Search Optimization",
       content: "By using Search Engine Optimization, You will get more Clients."
     },
     {
       id: "grid-2 grid",
+      circle: "circle-2",
       heading: "Search Optimization",
       content: "By using Search Engine Optimization, You will get more Clients."
     },
     {
       id: "grid-3 grid",
+      circle: "circle-3",
       heading: "Search Optimization",
       content: "By using Search Engine Optimization, You will get more Clients."
     },
     {
       id: "grid-4 grid",
+      circle: "circle-4",
       heading: "Search Optimization",
       content: "By using Search Engine Optimization, You will get more Clients."
     }
@@ -39,12 +43,9 @@ const Section3 = () => {
       <div className="grid-container">
         {Data.map((item) => {
           return (
-            <div className={item.id}>
+            <div key={item.key} className={item.id}>
               <div className="circle">
-                <div
-                  className="
-                circle-1"
-                ></div>{" "}
+                <div className={item.circle}></div>
               </div>
               <div className="content">
                 <h4>{item.heading}</h4>

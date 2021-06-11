@@ -27,7 +27,7 @@ const Footer = () => {
   ];
   return (
     <div className="footer">
-      <div className="grid-container footer-1">
+      <div className="footer-1">
         <div className="item-1">
           <img src={logo} alt="img-logo" />
           <div className="social-icons">

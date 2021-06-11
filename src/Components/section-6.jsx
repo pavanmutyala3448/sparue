@@ -1,5 +1,6 @@
 import React from "react";
 import "./ComponentsStyles/Section6.css";
+
 const Section6 = () => {
   return (
     <div className="Section-6">
