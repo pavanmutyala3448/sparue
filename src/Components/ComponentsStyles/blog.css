@@ -1,0 +1,12 @@
+.container {
+  width: 80%;
+  margin: 100px auto;
+}
+.grid-system {
+  margin: 20px auto;
+  display: flex;
+}
+.grid-system img {
+  width: 350px;
+  margin-left: 20px;
+}

@@ -1,0 +1,42 @@
+* {
+  text-align: center;
+}
+.features {
+  width: 80%;
+  margin: 10px auto;
+}
+.services {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 100px;
+  align-items: center;
+  margin: 30px auto;
+  text-align: center;
+}
+.services h3 {
+  font-weight: 500;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.service-1 img,
+.service-2 img,
+.service-3 img,
+.service-4 img {
+  width: 70px;
+}
+.service-1 p,
+.service-2 p,
+.service-3 p,
+.service-4 p {
+  text-align: center;
+  width: 50%;
+  margin: 10px auto;
+  font-size: 12px;
+  padding: 30px;
+}
+
+.service-4 {
+  position: relative;
+  left: 414px;
+  margin: 20px auto;
+}

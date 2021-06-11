@@ -1,0 +1,55 @@
+.banner {
+  width: 100%;
+  height: 90vh;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  align-items: center;
+}
+.left-portion {
+  width: 100%;
+  flex-basis: 40%;
+  padding: 30px;
+  flex-wrap: wrap;
+}
+.content {
+  margin-left: 50px;
+}
+
+.content h1 {
+  font-size: 40px;
+  font-weight: 300;
+  padding: 10px;
+}
+.content p {
+  font-size: 15px;
+  line-height: 30px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+.banner-btn-1 {
+  width: 30%;
+  margin: 40px;
+  font-size: 13px;
+}
+.banner-btn-2 {
+  background-color: transparent;
+  color: black;
+  width: 30%;
+  margin: 20px;
+  font-size: 13px;
+}
+.right-portion {
+  width: 100%;
+  flex-basis: 60%;
+  padding: 30px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.developer {
+  padding: 20px;
+}
+.developer img {
+  width: 400px;
+}
